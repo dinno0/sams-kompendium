@@ -3,7 +3,7 @@ id: leki-medyczne
 title: Leki w SAMS
 ---
 
-# Leki stosowane w San Andreas Medical Services
+# Leki stosowane
 
 W SAMS stosuje się kilka podstawowych leków, które pomagają ratownikom skutecznie leczyć pacjentów w różnych sytuacjach. Poniżej znajdują się opisy najważniejszych medykamentów oraz zasady ich stosowania.
 
@@ -36,3 +36,17 @@ Fentanyl to silny opioidowy lek przeciwbólowy, stosowany w przypadku bardzo sil
 - **Działanie:** Szybkie i skuteczne działanie przeciwbólowe.
 - **Sposób podania:** Podawany dożylnie, śródskórnie lub w formie plastra (w zależności od wersji skryptu).
 - **Uwagi:** Wymaga ostrożności ze względu na możliwość uzależnienia i działań niepożądanych.
+
+# Zasady stosowania leków
+
+## Podstawowe zasady
+
+- Leki podawane są zgodnie z protokołami i tylko w sytuacjach, do których są przeznaczone.
+- Przed podaniem należy ocenić stan pacjenta i upewnić się, że nie występują przeciwwskazania.
+- Dokumentowanie podania leku jest obowiązkowe.
+
+## Bezpieczeństwo
+
+- Nigdy nie podawaj leków bez zgody wyższego rangą medyka, jeśli nie jesteś pewien.
+- Obserwuj pacjenta po podaniu leku pod kątem reakcji niepożądanych.
+- W przypadku wystąpienia komplikacji natychmiast podejmij odpowiednie działania.
