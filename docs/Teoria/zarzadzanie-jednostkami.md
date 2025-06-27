@@ -15,8 +15,8 @@ W celu utworzenia jednostki, należy skorzystać z systemu **MDT (Mobile Data Te
 
 - **Osoba, która tworzy jednostkę jako pierwsza, automatycznie staje się jej zarządcą**.
 - Nazwa jednostki powinna składać się z:
-  - **<TYP JEDNOSTKI>**
-  - **<ODZNAKA TWORZĄCEGO>**
+  - **_TYP JEDNOSTKI_**
+  - **_ODZNAKA TWORZĄCEGO_**
   - Przykład: `ADAM 301`
 
 ---
