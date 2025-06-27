@@ -86,11 +86,18 @@ const config = {
       },
       footer: {
         style: 'dark',
+        links: [
+          {
+            title: 'Kompendia',
+            items: [
+              {
+                label: 'DOJ',
+                href: 'https://sams-felinerp.vercel.app/',
+              },
+            ],
+          },
+        ],
         copyright: `© ${new Date().getFullYear()} SAMS FelineRP. Wszelkie prawa zastrzeżone. Kompendium stworzone przez DINN0Ø. Kopiowanie i rozpowszechnianie bez zgody zabronione.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
       },
     }),
 };

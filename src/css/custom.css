@@ -1,57 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georgia');
 
 /* --- Jasny motyw --- */
 :root {
-  --ifm-color-primary: #dfa930;
-  --ifm-color-primary-dark: #b88a27;
-  --ifm-color-primary-darker: #8f6b1e;
-  --ifm-color-primary-darkest: #6c4f17;
-  --ifm-color-primary-light: #e9c253;
-  --ifm-color-primary-lighter: #f0d478;
-  --ifm-color-primary-lightest: #f7e8b3;
+  --ifm-color-primary: #8b5e3c; /* brązowy */
+  --ifm-color-primary-dark: #6d472c;
+  --ifm-color-primary-darker: #553620;
+  --ifm-color-primary-darkest: #3d2615;
+  --ifm-color-primary-light: #a46e44;
+  --ifm-color-primary-lighter: #bc8555;
+  --ifm-color-primary-lightest: #d4a36f;
 
-  --ifm-color-accent: #0b2e26;
+  --ifm-color-accent: #eae3d2; /* beż jako akcent w jasnym motywie */
 
-  --ifm-background-color: #eeebe0;
+  --ifm-background-color: #f5f0e6; /* tło jaśniejsze beżowe */
   --ifm-color-background-secondary: var(--ifm-color-accent);
-  --ifm-color-primary-contrast: #eeebe0;
+  --ifm-color-primary-contrast: #f5f0e6;
 
-  --ifm-font-family-base: 'Lexend', sans-serif;
-  --ifm-font-family-monospace: 'Lexend', monospace;
+  --ifm-font-family-base: Georgia, serif;
+  --ifm-font-family-monospace: Georgia, serif;
 
-  --ifm-color-text-primary: #5c4f0c;
-  --ifm-color-link: var(--ifm-color-accent);
-  --ifm-color-link-hover: #08301f;
+  --ifm-color-text-primary: #3e2a15;
+  --ifm-color-link: #6d472c;
+  --ifm-color-link-hover: #553620;
 }
 
 /* --- Ciemny motyw --- */
 [data-theme='dark'] {
-  --ifm-color-primary: #0e3729; /* Zieleń - główny kolor tekstu */
-  --ifm-color-primary-dark: #0b2a21;
-  --ifm-color-primary-darker: #09231a;
-  --ifm-color-primary-darkest: #061811;
-  --ifm-color-primary-light: #366951;
-  --ifm-color-primary-lighter: #5f866d;
-  --ifm-color-primary-lightest: #8ab39d;
+  --ifm-color-primary: #eae3d2; /* beż - tekst */
+  --ifm-color-primary-dark: #d1c7ae;
+  --ifm-color-primary-darker: #b6ac94;
+  --ifm-color-primary-darkest: #9c927a;
+  --ifm-color-primary-light: #f5f0e6;
+  --ifm-color-primary-lighter: #fff9ef;
+  --ifm-color-primary-lightest: #ffffff;
 
-  --ifm-color-accent: #dfa930; /* Złoto jako akcent i kolor przycisków */
+  --ifm-color-accent: #8b5e3c; /* brąz jako akcent w ciemnym motywie */
 
-  --ifm-background-color: #303030;
+  --ifm-background-color: #2d2b28;
   --ifm-color-background-secondary: var(--ifm-color-accent);
-  --ifm-color-primary-contrast: #303030;
+  --ifm-color-primary-contrast: #2d2b28;
 
-  --ifm-font-family-base: 'Lexend', sans-serif;
-  --ifm-font-family-monospace: 'Lexend', monospace;
+  --ifm-font-family-base: Georgia, serif;
+  --ifm-font-family-monospace: Georgia, serif;
 
-  --ifm-color-text-primary: #cee3d7;
+  --ifm-color-text-primary: #f0e7d6;
   --ifm-color-link: var(--ifm-color-accent);
-  --ifm-color-link-hover: #b38921;
+  --ifm-color-link-hover: #bc8555;
 
-  /* Jaśniejszy tekst dla opisów dokumentów np. sidebar */
+  /* jaśniejszy tekst w sidebarze */
   .menu__link,
   .menu__link--active,
   .menu__list-item > a {
-    color: #d9e8dd; /* jaśniejszy odcień zieleni */
+    color: #f4ead7;
   }
 }
 
@@ -87,15 +87,15 @@ body {
   transform: scale(1.05);
 }
 
-/* Ciemny motyw przycisk: złote tło, zielony tekst */
+/* Ciemny motyw przycisk: brązowe tło, beżowy tekst */
 [data-theme='dark'] .button--primary {
-  background-color: var(--ifm-color-accent); /* złote */
-  color: var(--ifm-color-primary); /* zielony tekst */
+  background-color: var(--ifm-color-accent);
+  color: var(--ifm-color-primary);
 }
 
 [data-theme='dark'] .button--primary:hover {
-  background-color: #b88a27; /* ciemniejsze złoto */
-  color: #0b2a21; /* ciemniejsza zieleń */
+  background-color: #6d472c;
+  color: #fff9ef;
   transform: scale(1.05);
 }
 
@@ -109,4 +109,3 @@ a:hover {
   color: var(--ifm-color-link-hover);
   text-decoration: underline;
 }
-
