@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'DOJ',
-                href: 'https://sams-felinerp.vercel.app/',
+                href: 'https://doj-felineroleplay.vercel.app/',
               },
             ],
           },
