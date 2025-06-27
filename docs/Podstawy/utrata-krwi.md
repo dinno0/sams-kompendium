@@ -7,7 +7,7 @@ title: Utrata krwi, infuzje i stabilizacja
 
 Utrata krwi dzieli się na 5 klas, z których cztery mają przypisane ostrzeżenia:
 
-| Klasa    | Opis                     | Ilość utraconej krwi (litry) |
+| Klasa    | Opis                     | Ilość krwi (litry) |
 |----------|--------------------------|------------------------------|
 | **Klasa 1** | Brak ostrzeżeń           | 6 (domyślna)                 |
 | **Klasa 2** | Utrata niewielkiej ilości krwi | 5.1                          |
