@@ -1,0 +1,44 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- Style dla stopki --- */
+
+footer.footer {
+  font-family: 'Lexend', sans-serif;
+  background-color: #0e3729; /* ciemna zieleń */
+  color: #dfa930; /* złoty tekst */
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  user-select: none; /* delikatna ochrona przed kopiowaniem */
+}
+
+footer.footer a {
+  color: #dfa930; /* złote linki */
+  text-decoration: underline;
+}
+
+footer.footer a:hover {
+  color: #eeebe0; /* jasny kolor na hover */
+}

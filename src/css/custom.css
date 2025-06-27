@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+/* --- Jasny motyw --- */
+:root {
+  --ifm-color-primary: #dfa930;
+  --ifm-color-primary-dark: #b88a27;
+  --ifm-color-primary-darker: #8f6b1e;
+  --ifm-color-primary-darkest: #6c4f17;
+  --ifm-color-primary-light: #e9c253;
+  --ifm-color-primary-lighter: #f0d478;
+  --ifm-color-primary-lightest: #f7e8b3;
+
+  --ifm-color-accent: #0b2e26;
+
+  --ifm-background-color: #eeebe0;
+  --ifm-color-background-secondary: var(--ifm-color-accent);
+  --ifm-color-primary-contrast: #eeebe0;
+
+  --ifm-font-family-base: 'Lexend', sans-serif;
+  --ifm-font-family-monospace: 'Lexend', monospace;
+
+  --ifm-color-text-primary: #5c4f0c;
+  --ifm-color-link: var(--ifm-color-accent);
+  --ifm-color-link-hover: #08301f;
+}
+
+/* --- Ciemny motyw --- */
+[data-theme='dark'] {
+  --ifm-color-primary: #0e3729; /* Zieleń - główny kolor tekstu */
+  --ifm-color-primary-dark: #0b2a21;
+  --ifm-color-primary-darker: #09231a;
+  --ifm-color-primary-darkest: #061811;
+  --ifm-color-primary-light: #366951;
+  --ifm-color-primary-lighter: #5f866d;
+  --ifm-color-primary-lightest: #8ab39d;
+
+  --ifm-color-accent: #dfa930; /* Złoto jako akcent i kolor przycisków */
+
+  --ifm-background-color: #303030;
+  --ifm-color-background-secondary: var(--ifm-color-accent);
+  --ifm-color-primary-contrast: #303030;
+
+  --ifm-font-family-base: 'Lexend', sans-serif;
+  --ifm-font-family-monospace: 'Lexend', monospace;
+
+  --ifm-color-text-primary: #cee3d7;
+  --ifm-color-link: var(--ifm-color-accent);
+  --ifm-color-link-hover: #b38921;
+
+  /* Jaśniejszy tekst dla opisów dokumentów np. sidebar */
+  .menu__link,
+  .menu__link--active,
+  .menu__list-item > a {
+    color: #d9e8dd; /* jaśniejszy odcień zieleni */
+  }
+}
+
+/* Globalne ustawienia fontów i tła */
+body {
+  font-family: var(--ifm-font-family-base);
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-text-primary);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Przycisk podstawowy */
+.button--primary {
+  border-radius: 12px;
+  padding: 0.6em 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: none;
+}
+
+/* Jasny motyw przycisk */
+:root .button--primary {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast);
+}
+
+:root .button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: scale(1.05);
+}
+
+/* Ciemny motyw przycisk: złote tło, zielony tekst */
+[data-theme='dark'] .button--primary {
+  background-color: var(--ifm-color-accent); /* złote */
+  color: var(--ifm-color-primary); /* zielony tekst */
+}
+
+[data-theme='dark'] .button--primary:hover {
+  background-color: #b88a27; /* ciemniejsze złoto */
+  color: #0b2a21; /* ciemniejsza zieleń */
+  transform: scale(1.05);
+}
+
+/* Linki */
+a {
+  color: var(--ifm-color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ifm-color-link-hover);
+  text-decoration: underline;
+}
+
