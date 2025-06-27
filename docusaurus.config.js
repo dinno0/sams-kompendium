@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'SAMS - FelineRP',
   tagline: 'Kompendium SAMS',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sams.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
